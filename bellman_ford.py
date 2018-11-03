@@ -8,7 +8,7 @@ def bprint(vertices, distance, predecessor):
 
 
 def bellman_ford(vertices, edges, source):
-    '''
+    """
     Takes in a graph, represented as lists of vertices and edges, and fills two arrays
     (distance and predecessor) about the shortest path from the source to each vertex.
     Based on https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
@@ -16,7 +16,7 @@ def bellman_ford(vertices, edges, source):
      :param edges: List of Edges, which are (u, v, weight) tuples
      :param source: From where to build a tree
      :return: (distance, predecessor) tuple
-    '''
+    """
 
     distance = {}
     predecessor = {}
